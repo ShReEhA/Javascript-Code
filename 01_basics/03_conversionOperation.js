@@ -18,8 +18,32 @@ console.log(isLoggedCheck) */
 
 let num=23
 let StringNum = String(num)
-console.log(StringNum)
-console.log(typeof StringNum)
+// console.log(StringNum)
+// console.log(typeof StringNum)
+
+
+/* Operations */
+
+let value = 5
+let value1 = -value 
+// console.log(2**2)
+// console.log(value1)
+
+let a = 10
+let b = 15
+let c = a+b
+// console.log(c)
+// console.log(1+"2")
+// console.log("1"+2)
+// console.log(34+23+"3333444")
+
+
+
+
+
+
+
+
 
 
 
