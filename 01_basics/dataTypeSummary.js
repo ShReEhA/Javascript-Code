@@ -18,5 +18,26 @@ let myObj= {
     "age": 24,
     "syllabus": "science"
 }
-console.log(typeof noscore)
+// console.log(typeof noscore)
 
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Stack(primitive) & Heap(Non-Priitive) 
+
+let myYoutube = "shreehari.com"
+let nameYoutube = myYoutube
+// console.log(nameYoutube)
+
+let anotherYoutube= "not Same"
+// console.log(anotherYoutube)
+
+
+let userOne = {
+    name: "Sreehari",
+    Email: "Shree@gmail.com"
+}
+let userTwo = userOne
+    userTwo.Email= "Hitesh@gmail.com"
+
+    console.log(userOne.Email)
+    console.log(userTwo.Email)
